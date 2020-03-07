@@ -1,6 +1,9 @@
+// import 'package:booking_bus_app/Passanger.dart';
 import 'package:booking_bus_app/components/modules.dart';
 import 'package:booking_bus_app/register2.dart';
 import 'package:http/http.dart' as http;
+// import 'package:booking_bus_app/Passenger.dart';
+import 'package:booking_bus_app/Person.dart';
 
 class Login extends StatefulWidget {
   @override
@@ -17,6 +20,31 @@ class LoginState extends State<Login> {
   bool status = true;
   TextEditingController emailController = new TextEditingController();
   TextEditingController passController = new TextEditingController();
+  
+  // Passenger passg = new Passenger();
+  // passg
+ 
+
+
+  
+
+  // per.name = "bevb";
+
+
+  // person.setFirstName("firstName");
+
+  // passenger.setBalance("");
+  
+
+
+  
+  
+  
+
+
+  
+  
+  
 
   void sendNumber() async{
     var data = emailController.text;
@@ -36,7 +64,9 @@ class LoginState extends State<Login> {
     String resp = response.body;
     var body = json.decode(resp);
     print(body);
-    print(body['balance']);
+    balance(body['balance']);
+    // balance(100);
+    getbal();
     if(response.statusCode == 200){
 
       Navigator.pushReplacementNamed(context, "login_verification");

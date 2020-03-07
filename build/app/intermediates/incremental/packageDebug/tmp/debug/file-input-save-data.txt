@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Mar 07 11:05:45 IST 2020
+#Sat Mar 07 12:47:32 IST 2020
 17.baseType=DIRECTORY
 4.path=flutter_assets/kernel_blob.bin
 8.set=ASSET

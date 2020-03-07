@@ -55,7 +55,7 @@ class TimerVerificationState extends State<TimerVerification> {
         ),
         FlatButton(
           child: Text("Chcckk"),
-          onPressed: () => Navigator.push(context,MaterialPageRoute(builder:  (context) => Log2())),
+          onPressed: () => Navigator.push(context,MaterialPageRoute(builder:  (context) => Dashboard())),
           // Navigator.of(context).pushReplacementNamed("login");
         ),
 

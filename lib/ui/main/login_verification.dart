@@ -56,12 +56,12 @@ class ScreenVerificationState extends State<ScreenVerification> {
               ),
               //otpCode,
               // Home(),
-              FlatButton(
-                child: Text("Chcckk"),
-                onPressed: () => Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Dashboard())),
-              ),
-              // TimerVerification(),
+              // FlatButton(
+              //   child: Text("Chcckk"),
+              //   onPressed: () => Navigator.push(context,
+              //       MaterialPageRoute(builder: (context) => Dashboard())),
+              // ),
+              TimerVerification(),
             ],
           ),
         ),
